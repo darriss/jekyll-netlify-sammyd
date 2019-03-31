@@ -4,9 +4,12 @@ title: Welcome
 permalink: /
 section: home
 intro_paragraph: >
-  [Jekyll Netlify Boilerplate](https://github.com/danurbanowicz/jekyll-netlify-boilerplate)
-  provides the basics to get a fast, static website deployed on Netlify.
-  Features [Netlify CMS](https://www.netlifycms.org), responsive
-  CSS Grid layout, sample
-  pages and posts, and a continuous deployment workflow.
+  When people think of Middle Eastern and North African countries, they often
+  think it is a completely different world. And it is to an extent. The climate,
+  the culture, the food, and values may be very diffferent from what people in
+  the Western world are used to, however there are many misconcieved notions
+  of the the countries in this region than are simply not true. Of course the
+  best way to clear up these misconceptions would be to actually go to these
+  countries. For those who can not make the trip, or who aere hesitant to make
+  the trip, this website is for you!
 ---
