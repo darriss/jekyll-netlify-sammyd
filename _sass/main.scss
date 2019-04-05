@@ -9,3 +9,29 @@
   "partials/typography",
   "partials/app"
 ;
+
+$font-stack:    Helvetica Neue, sans-serif;
+$primary-color: #036;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+th {
+    margin:20px;
+    font-weight: bold;
+    &:hover {
+        color:orange;
+    }
+}
+
+table {
+  image-resolution: 300dpi;
+
+}
+
+
+nav {
+  text-align: center;
+}
