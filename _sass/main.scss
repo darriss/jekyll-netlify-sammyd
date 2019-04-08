@@ -18,6 +18,14 @@ body {
   color: $primary-color;
 }
 
+a {
+    margin:20px;
+    font-weight: bold;
+    &:hover {
+        color:orange;
+    }
+}
+
 th {
     margin:20px;
     font-weight: bold;
@@ -42,4 +50,21 @@ img {
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
+}
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  width: 200px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  //background-image: url(iraq_beauty.jpg);
+}
+
+.iraq:hover .overlay {
+  opacity: 1;
 }
