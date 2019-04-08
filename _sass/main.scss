@@ -53,26 +53,6 @@ img {
     background-size:     cover;
 }
 
-
-
-.iraq {
-  display: block;
-  width: 200px;
-  height: 100px;
-  background: url('assets/img/uploads/iraq_beauty.jpg') bottom;
-  text-indent: -99999px;
-}
-
-.myButtonLink:hover {
-  background-position: 0 0;
-}
-
-.iraq {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
-
 .overlay {
   position: absolute;
   top: 0;
@@ -82,11 +62,36 @@ img {
   height: 100px;
   width: 200px;
   opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+  transition: 1s ease;
   //background-image: url(assets/img/uploads/iraq_beauty.jpg);
 }
 
+.iraq {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
 .iraq:hover .overlay {
+  opacity: 1;
+}
+
+.morocco {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.morocco:hover .overlay {
+  opacity: 1;
+}
+
+.libya {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.libya:hover .overlay {
   opacity: 1;
 }
