@@ -16,6 +16,7 @@ $primary-color: #036;
 body {
   font: 100% $font-stack;
   color: $primary-color;
+  background-color: #d9b3ff;
 }
 
 a {
@@ -51,8 +52,29 @@ img {
     background-repeat:   no-repeat;
     background-size:     cover;
 }
-.overlay {
+
+
+
+.iraq {
+  display: block;
+  width: 200px;
+  height: 100px;
+  background: url('assets/img/uploads/iraq_beauty.jpg') bottom;
+  text-indent: -99999px;
+}
+
+.myButtonLink:hover {
+  background-position: 0 0;
+}
+
+.iraq {
   position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.overlay {
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -62,7 +84,7 @@ img {
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
-  //background-image: url(iraq_beauty.jpg);
+  //background-image: url(assets/img/uploads/iraq_beauty.jpg);
 }
 
 .iraq:hover .overlay {
