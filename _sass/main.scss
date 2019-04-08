@@ -16,7 +16,7 @@ $primary-color: #036;
 body {
   font: 100% $font-stack;
   color: $primary-color;
-  background-color: #d9b3ff;
+  background-color: #ccffff;
 }
 
 a {
@@ -30,9 +30,6 @@ a {
 th {
     margin:20px;
     font-weight: bold;
-    &:hover {
-        color:orange;
-    }
 }
 
 table {
@@ -62,7 +59,7 @@ img {
   height: 100px;
   width: 200px;
   opacity: 0;
-  transition: 1s ease;
+  transition: .5s ease;
   //background-image: url(assets/img/uploads/iraq_beauty.jpg);
 }
 
@@ -93,5 +90,95 @@ img {
 }
 
 .libya:hover .overlay {
+  opacity: 1;
+}
+
+.saudi {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.saudi:hover .overlay {
+  opacity: 1;
+}
+
+.algeria {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.algeria:hover .overlay {
+  opacity: 1;
+}
+
+.egypt {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.egypt:hover .overlay {
+  opacity: 1;
+}
+
+.syria {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.syria:hover .overlay {
+  opacity: 1;
+}
+
+.tunisia {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.tunisia:hover .overlay {
+  opacity: 1;
+}
+
+.lebanon {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.lebanon:hover .overlay {
+  opacity: 1;
+}
+
+.jordan {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.jordan:hover .overlay {
+  opacity: 1;
+}
+
+.yemen {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.yemen:hover .overlay {
+  opacity: 1;
+}
+
+.oman {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.oman:hover .overlay {
   opacity: 1;
 }
