@@ -187,10 +187,11 @@ img {
 //This is the responsive nav bar code
 
 .topnav {
-  overflow: hidden;
+  overflow: auto;
   background-color: #333;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
 }
 
