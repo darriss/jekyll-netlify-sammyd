@@ -23,10 +23,13 @@ body {
 
 .mySlides {
   display: none;
-  background-size: 100% 100%;
 }
 
-
+.homepara p{
+  position: absolute;
+  top: 200;
+  left: 300;
+}
 /* Slideshow container */
 .slideshow img{
   max-width: 1000px;
@@ -35,7 +38,9 @@ body {
   vertical-align: middle;
   width: 100%;
   height: 500px;
-  background-size: 100% 100%;
+  // position: absolute;
+  // top: 70;
+  // left: 0;
 }
 
 
