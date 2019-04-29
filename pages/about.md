@@ -1,17 +1,14 @@
 ---
-layout: page
-title: MENA Countries
-permalink: /about
-section: about
-intro_paragraph: |
-  MENA stands for Middle East and North Africa. This region of the world is very diverse in terms of
+layout: default
 ---
+
+<center><h2>Why Should We Learn About MENA?</h2></center>
 
 ### Diversity
 The Middle East and Africa are both regions that often get generalized and thrown in a box, however the MENA Region is one of the most diverse in the world. It is diverse in terms of:
 <style>
 
-<!-- .card:hover {
+.card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -99,10 +96,12 @@ The Middle East and Africa are both regions that often get generalized and throw
 iframe {
   position: absolute;
   top: 1500px;
-  left: 350px;
-} -->
+  left: 500px;
+}
 div.menagallery {
-  float: left;
+  padding: 0 6px;
+  float: right;
+  width: 70%;
 }
 
 div.gallery {
@@ -130,6 +129,7 @@ div.desc {
 .responsiveg {
   padding: 0 6px;
   width: 60%;
+  <!-- float: left; -->
 }
 
 @media only screen and (max-width: 700px) {
@@ -152,42 +152,87 @@ div.desc {
 }
 </style>
 
-<div class="menagallery">
-  <div class="responsiveg">
-    <div class="gallery">
-        <img src="assets/img/uploads/food.jpg" alt="Cinque Terre" width="600" height="400">
-      <div class="desc">Add a description of the image here</div>
-    </div>
-  </div>
-
-
-  <div class="responsiveg">
-    <div class="gallery">
-        <img src="assets/img/uploads/food.jpg" alt="Forest" width="600" height="400">
-      <div class="desc">Add a description of the image here</div>
-    </div>
-  </div>
-
-  <div class="responsiveg">
-    <div class="gallery">
-        <img src="assets/img/uploads/food.jpg" alt="Northern Lights" width="600" height="400">
-      <div class="desc">Add a description of the image here</div>
-    </div>
-  </div>
-
-  <div class="responsiveg">
-    <div class="gallery">
-      <img src="assets/img/uploads/food.jpg" alt="Mountains" width="600" height="400">
-      <div class="desc">Add a description of the image here</div>
-    </div>
-  </div>
-
-  <div class="clearfix"></div>
-</div>
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0ZvYJmzvgLo"
 frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
 picture-in-picture" allowfullscreen></iframe>
 
-#### Another heading
-taehart
+<!-- Food -->
+  <div class="foodpic">
+  <img src="assets/img/uploads/food.jpg" style="width:100%">
+  <div class="food">
+    <h4><b>Food</b></h4>
+    <p>There are many different dishes in the MENA region for various reasons. The countries in
+    this region have different resources, different agriculture, and different diets. Religion
+    plays a part in this, as well as the various spices that are available. Some countries in the
+    region are better than others, so they may not have access or the financial ability to have
+    certain foods.</p>
+  </div>
+  </div>
+
+
+<!-- Culture -->
+  <div class="culturepic">
+  <img src="assets/img/uploads/culture.jpg" style="width:100%">
+  <div class="culture">
+    <h4><b>Culture</b></h4>
+    <p>There are many different dishes in the MENA region for various reasons. The countries in
+    this region have different resources, different agriculture, and different diets. Religion
+    plays a part in this, as well as the various spices that are available. Some countries in the
+    region are better than others, so they may not have access or the financial ability to have
+    certain foods.</p>
+  </div>
+  </div>
+
+<!-- Ethnicity -->
+  <div class="ethnicitypic">
+  <img src="assets/img/uploads/ethnicity.jpg" style="width:100%">
+  <div class="ethnicity">
+    <h4><b>Ethnicity</b></h4>
+    <p>There are many different ethnicities in the MENA region for various reasons. The countries in
+    this region have different resources, different agriculture, and different diets. Religion
+    plays a part in this, as well as the various spices that are available. Some countries in the
+    region are better than others, so they may not have access or the financial ability to have
+    certain foods.</p>
+  </div>
+  </div>
+
+
+<!-- Religion -->
+  <div class="religionpic">
+  <img src="assets/img/uploads/religion.jpg" style="width:100%">
+  <div class="religion">
+    <h4><b>Religion</b></h4>
+    <p>There are many different dishes in the MENA region for various reasons. The countries in
+    this region have different resources, different agriculture, and different diets. Religion
+    plays a part in this, as well as the various spices that are available. Some countries in the
+    region are better than others, so they may not have access or the financial ability to have
+    certain foods.</p>
+  </div>
+  </div>
+
+
+<!-- History -->
+  <div class="historypic">
+  <img src="assets/img/uploads/history.jpg" style="width:100%">
+  <div class="history">
+    <h4><b>History</b></h4>
+    <p>There are many different dishes in the MENA region for various reasons. The countries in
+    this region have different resources, different agriculture, and different diets. Religion
+    plays a part in this, as well as the various spices that are available. Some countries in the
+    region are better than others, so they may not have access or the financial ability to have
+    certain foods.</p>
+  </div>
+  </div>
+
+<!-- Climate -->
+  <div class="climatepic">
+  <img src="assets/img/uploads/climate.jpg" style="width:100%">
+  <div class="climate">
+    <h4><b>Climate</b></h4>
+    <p>There are many different dishes in the MENA region for various reasons. The countries in
+    this region have different resources, different agriculture, and different diets. Religion
+    plays a part in this, as well as the various spices that are available. Some countries in the
+    region are better than others, so they may not have access or the financial ability to have
+    certain foods.</p>
+  </div>
+  </div>
